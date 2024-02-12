@@ -1,4 +1,4 @@
-* {
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +12,7 @@ body {
     padding: 2rem;
     width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(to bottom,#E0CCBE, #C7C8CC);
+    background-image: linear-gradient(to bottom,#EEF5FF, #B4D4FF);
     display: flex;
     flex-direction: column;
 }
@@ -22,11 +22,10 @@ body {
     width: 100%;
     max-width: 800px;
     margin-inline: auto;
-    filter: drop-shadow(5px 10px 20px rgba(0, 0, 0, 0.2));
-    align-items: center; /* align items vertically */
-    justify-content: center; /* align items horizontally */
+    filter: drop-shadow(5px 10px 20px rgba(0, 0, 0, 0.4));
+    align-items: center;
+    justify-content: center;
 
-    //add the drop shadow
 }
 
 .container {
@@ -41,8 +40,8 @@ body {
 .image-1,
 .image-2 {
     position: absolute;
-    width: 500px; /* Set the desired width */
-    height: auto; /* Maintain aspect ratio */
+    width: 600px;
+    height: auto;
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -60,14 +59,14 @@ body {
 .btn {
     position: absolute;
     top: calc(100% - 5rem);
-    min-width: 120px;
-    padding: 0.75rem 1rem;
+    min-width: 180px;
+    padding: 0.80rem 1rem;
     font-size: 1.25rem;
     outline: none;
     border: none;
     background-color: #f8fafc;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: 0.3s;
 }
@@ -88,3 +87,5 @@ body {
     transition: all 0.5s ease;
     z-index: 2;
 }
+
+
