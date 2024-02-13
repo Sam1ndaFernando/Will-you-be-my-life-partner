@@ -43,7 +43,7 @@ btnYes.addEventListener("click", (e) => {
     //hureeeText.textContent = "Yhe Yhe Huree Huree!! අපි room යමු !!!";
     hureeeText.style.fontSize = "3rem";
     hureeeText.style.color = "#F875AA"; 
-    hureeeText.style.fontFamily = "ABeeZee"; 
+    hureeeText.style.fontFamily = "Verdana";
     hureeeText.style.textAlign = "center"; 
     container.appendChild(hureeeText);
 });
