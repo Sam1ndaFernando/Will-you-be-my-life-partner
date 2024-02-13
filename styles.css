@@ -89,7 +89,9 @@ body {
 }
 
 footer {
-    background-color: aquamarine;
+    background-color: #F875AA;
+    color: #f8fafc;
+    text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
     text-align: center;
     font-family: ABeeZee;
     width: 100%;
